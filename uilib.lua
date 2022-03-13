@@ -106,7 +106,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 	MainFrame.Name = "MainFrame"
 	MainFrame.Parent = FluxLib
 	MainFrame.AnchorPoint = Vector2.new(0.5, 0.5)
-	MainFrame.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+	MainFrame.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
 	MainFrame.ClipsDescendants = true
 	MainFrame.Position = UDim2.new(0.5, 0, 0.5, 0)
 	MainFrame.Size = UDim2.new(0, 0, 0, 0)
@@ -117,7 +117,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 
 	LeftFrame.Name = "LeftFrame"
 	LeftFrame.Parent = MainFrame
-	LeftFrame.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+	LeftFrame.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
 	LeftFrame.Size = UDim2.new(0, 205, 0, 484)
 
 	LeftCorner.CornerRadius = UDim.new(0, 5)
@@ -527,7 +527,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 
 			Button.Name = "Button"
 			Button.Parent = Container
-			Button.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+			Button.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 			Button.ClipsDescendants = true
 			Button.Position = UDim2.new(0.370312512, 0, 0.552631557, 0)
 			Button.Size = UDim2.new(0, 457, 0, 43)
@@ -1323,7 +1323,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 			Dropdown.AutoButtonColor = false
 			Dropdown.Font = Enum.Font.SourceSans
 			Dropdown.Text = ""
-			Dropdown.TextColor3 = Color3.fromRGB(0, 0, 0)
+			Dropdown.TextColor3 = Color3.fromRGB(255, 255, 255)
 			Dropdown.TextSize = 14.000
 
 			DropdownCorner.CornerRadius = UDim.new(0, 4)
